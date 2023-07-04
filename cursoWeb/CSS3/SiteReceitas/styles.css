@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/fundo3.jpg);
+}
+
+#principal{
+    margin: 0 auto;
+    width: 900px;
+}
+
+#header {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(75deg, #884A39 0%, #C38154 50%, #884A39 100%);
+    padding: 25px;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+#header a {
+    text-decoration: none;
+    color: #FFF6F4;
+}
+
+#menu a, #conteudo a {
+    text-decoration: none;
+    padding: 5px;
+    color: #181818;
+    font-weight: bold;
+}
+
+#menu a:hover, #conteudo a:hover {
+    color: #884A39;
+}
+
+#menu {
+    background-color: #FFC26F;
+    padding: 10px;
+}
+
+#conteudo {
+    background-color: #f9e0bbe6;
+    text-align: justify;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+#conteudo h2 {
+    margin: 0;
+    padding: 0 15px 15px 15px;
+}
+
+.boluxo {
+    width: 60%;
+    border: double 7px #884A39;
+    border-radius: 10px;
+}
+
+.boluxos {
+    text-align: center;
+}
+
+/* PARTE DO BOLITO */
+
+#titulo {
+    height: 250px;
+    background-image: url(img/capa.jpg);
+    color: #FFC26F;
+}
+
+#ingredientes, #preparo {
+    width: 49%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: text-top;
+}
+
+#conteudo #sobre {
+    padding: 0 15px;
+}
